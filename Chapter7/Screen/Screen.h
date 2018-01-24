@@ -5,12 +5,13 @@
 #ifndef CHAPTER7_SCREEN_H
 #define CHAPTER7_SCREEN_H
 
-#endif //CHAPTER7_SCREEN_H
-
 #include <string>
 #include <vector>
+#include "WindowManager.h"
 
 class Screen {
+
+    friend class  WindowManager;
 
 public:
     using pos=std::string::size_type;
@@ -72,3 +73,7 @@ char Screen::get(Screen::pos ht, Screen::pos wd) const {
     pos row = ht * width;
     return contents[row + wd];
 }
+
+
+#endif //CHAPTER7_SCREEN_H
+

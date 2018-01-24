@@ -1,8 +1,7 @@
 #include <iostream>
 #include <string>
-#include "Screen.h"
+#include "Screen/Screen.h"
 
-#include "Class1.h"
 
 using namespace std;
 
