@@ -13,6 +13,7 @@ int main(int argc, char const *argv[])
         result2 += word1 + " ";
     }
 
+
     cout << "result1:" << result1 << endl
          << endl;
     cout << "result2:" << result2 << endl;
