@@ -1,5 +1,6 @@
 #include <string>
 #include <iostream>
+#include <vector>
 using std::string;
 int main(int argc, char const *argv[])
 {
@@ -11,18 +12,15 @@ int main(int argc, char const *argv[])
 
     string word;
 
-    // while (std::cin >> word)
-    // {
+    while (std::cin >> word)
+    {
 
-    //     std::cout << word << std::endl;
-    // }
-
+        std::cout << word << std::endl;
+    }
     while (std::getline(std::cin, word))
     {
         std::cout << word << std::endl;
     }
-
     string::size_type a=word.size();
-
-    return 0;
+  
 }
