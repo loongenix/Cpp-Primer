@@ -10,17 +10,18 @@ int main(int argc, char const *argv[])
     // string s4(10,'c');
     // std::cout<<s1<<" "<<s2<<" "<<s3<<" "<<s4<<std::endl;
 
-    string word;
+    // string word;
 
-    while (std::cin >> word)
-    {
+    // while (std::cin >> word)
+    // {
 
-        std::cout << word << std::endl;
-    }
-    while (std::getline(std::cin, word))
-    {
-        std::cout << word << std::endl;
-    }
-    string::size_type a=word.size();
+    //     std::cout << word << std::endl;
+    // }
+    // while (std::getline(std::cin, word))
+    // {
+    //     std::cout << word << std::endl;
+    // }
+    // string::size_type a = word.size();
+
   
 }
